@@ -37,7 +37,7 @@ const Index = () => {
     <SignUpModal open={modal} handleClose={()=>setModal(false)} email={email}/>
       <div className="h-screen flex items-center justify-center flex-col gap-8 p-5">
         <h1 className="text-[35px] font-bold sm:text-[40px] md:text-[50px]">
-          Ro‘yxatdan o‘tish
+          Register
         </h1>
         <div className="max-w-[600px]">
           <Formik

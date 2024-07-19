@@ -89,7 +89,7 @@ const Index = () => {
                     ),
                   }}
                 />
-                <p className='mb-3 cursor-pointer hover:text-blue' onClick={()=>setModal(true)}>Parolni unutdingizmi ?</p>
+                <p className='mb-3 cursor-pointer hover:text-blue' onClick={()=>setModal(true)}>Forgot password ?</p>
                 <Button
                   type="submit"
                   variant="contained"
@@ -97,7 +97,7 @@ const Index = () => {
                   disabled={isSubmitting}
                   fullWidth
                 >
-                  {isSubmitting ? "Submitting" : "Tizimga kirish"}
+                  {isSubmitting ? "Submitting" : "Submit"}
                 </Button>
               </Form>
             )}
